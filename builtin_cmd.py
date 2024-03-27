@@ -26,3 +26,6 @@ def rm(inp):
     os.remove(inp[0])
 def rmdir(inp):
     os.rmdir(inp[0])
+
+def neofetch(inp):
+    print(global_var.os_name,global_var.os_version)
