@@ -1,6 +1,6 @@
 from command_list import *
 import os
-import builtin_cmd
+import builtin_cmd, update
 import global_var
 class OS:
     os_name = 'OSMINE'
@@ -17,8 +17,11 @@ class OS:
             if inp[0] not in list_of_commands:
                 print('command not found')
             else:
-                func = getattr(builtin_cmd,inp[0])
-                func(inp[1::])
+                if inp[0] == 'update':
+                    update.update_from_git()
+                else:
+                    func = getattr(builtin_cmd,inp[0])
+                    func(inp[1::])
 if __name__ == "__main__":
     
     smth = OS()
