@@ -1,0 +1,1 @@
+print(global_var.os_name,global_var.os_version)

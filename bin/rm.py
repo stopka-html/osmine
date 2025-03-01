@@ -1,0 +1,1 @@
+os.remove(inp[0])

@@ -1,0 +1,11 @@
+{
+    "ls": "bin/ls.py",
+    "cd": "bin/cd.py",
+    "rmdir": "bin/rmdir.py",
+    "mkdir": "bin/mkdir.py",
+    "rm": "bin/rm.py",
+    "echo": "bin/echo.py",
+    "neofetch": "bin/neofetch.py",
+    "exit": "bin/exit.py",
+    "pgapt": "bin/pgapt.py"
+}

@@ -1,1 +1,0 @@
-list_of_commands = ['update','echo','neofetch','exit','ls','cd','rmdir','mkdir','rm']
